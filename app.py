@@ -9,6 +9,7 @@ app = Flask(__name__)
 def main():
     return render_template('index.html')
 
+
 @app.route("/pokemon/<query>")
 def search(query):
 
